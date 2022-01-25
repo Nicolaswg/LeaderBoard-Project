@@ -17,21 +17,6 @@
                 <button class="refresh">Refresh</button>
             </div>
             <ul class="leaderboard-box">
-                <li class="score">
-                    <p class="name">Nicolas: 100</p>
-                </li>
-                <li class="score">
-                    <p class="name">Nicolas: 100</p>
-                </li>
-                <li class="score">
-                    <p class="name">Nicolas: 100</p>
-                </li>
-                <li class="score">
-                    <p class="name">Nicolas: 100</p>
-                </li>
-                <li class="score">
-                    <p class="name">Nicolas: 100</p>
-                </li>
             </ul>
         </div>
         <div class="content">
@@ -39,11 +24,11 @@
                 <h2>Add your score</h2>
             </div>
             <div class="input-form">
-                <input type="text" placeholder="Your name" id="name">
-                <input type="text" placeholder="Your name" id="score">
+                <input type="text" placeholder="Your name" id="name" required>
+                <input type="number" placeholder="Your score" id="score" required>
             </div>
             <div class="submit-container">
-                <button class="submit">Submit</button></div> 
+                <button type="button" class="submit">Submit</button></div> 
         </div>
     </section>
     <script src="index.js"></script>
