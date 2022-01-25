@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Leaderboard</title>
 <script defer src="main.js"></script></head>
 <body>
-    <h1>Perror nuevo y viejo</h1>
+    <header class="header">
+        <h1>Leaderboard</h1>
+    </header>
+    <section class="main">
+        <div class="content">
+            <div class="leaderboard-header">
+                <h2>Recent scores</h2>
+                <button class="refresh">Refresh</button>
+            </div>
+            <ul class="leaderboard-box">
+                <li class="score">
+                    <p class="name">Nicolas: 100</p>
+                </li>
+                <li class="score">
+                    <p class="name">Nicolas: 100</p>
+                </li>
+                <li class="score">
+                    <p class="name">Nicolas: 100</p>
+                </li>
+                <li class="score">
+                    <p class="name">Nicolas: 100</p>
+                </li>
+                <li class="score">
+                    <p class="name">Nicolas: 100</p>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="input-header">
+                <h2>Add your score</h2>
+            </div>
+            <div class="input-form">
+                <input type="text" placeholder="Your name" id="name">
+                <input type="text" placeholder="Your name" id="score">
+            </div>
+            <button class="submit">Submit</button>
+        </div>
+    </section>
     <script src="index.js"></script>
 </body>
 </html>
