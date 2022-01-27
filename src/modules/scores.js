@@ -1,9 +1,8 @@
 class Scores {
   static scoreList = [];
 
-  constructor(name, score, index) {
-    this.index = index;
-    this.name = name;
+  constructor(user, score) {
+    this.user = user;
     this.score = score;
   }
 }
