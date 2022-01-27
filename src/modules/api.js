@@ -15,7 +15,6 @@ const CreateApiGame = async () => {
   }));
 };
 const NewScore = async () => {
-  console.log(id);
   const name = document.getElementById('name');
   const score = document.getElementById('score');
   const newScore = new Scores(name.value, score.value);
