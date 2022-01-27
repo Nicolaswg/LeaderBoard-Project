@@ -8,9 +8,11 @@
 * GIT/GITHUH/GITFLOW
 * API
 
-## Project View
-
+## Project Functionality video
 https://user-images.githubusercontent.com/73354132/151271551-b7266846-08d9-4d26-8a27-bcae6065962c.mp4
+
+## Project final View
+![Leaderboard](https://user-images.githubusercontent.com/73354132/151404845-0fb8db0c-7737-4f94-8e84-ab398e0a8c4f.png)
 
 
 ## How to set up 
