@@ -10,7 +10,7 @@
 
 ## Project View
 
-https://user-images.githubusercontent.com/73354132/151064012-e636f713-7276-484b-a513-958382383f50.mp4
+https://user-images.githubusercontent.com/73354132/151271551-b7266846-08d9-4d26-8a27-bcae6065962c.mp4
 
 
 ## Live page
