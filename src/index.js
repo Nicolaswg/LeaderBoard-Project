@@ -1,11 +1,13 @@
 import './style.css';
-import { AddScore, Render } from './modules/addScore.js';
+import { CreateApiGame, NewScore, DisplayScore } from './modules/api.js';
 
 const submitBtn = document.querySelector('.submit');
-
-Render();
-
+const refreshBtn = document.querySelector('.refresh');
+CreateApiGame();
 submitBtn.addEventListener('click', () => {
-  AddScore();
-  Render();
+  NewScore();
+});
+
+refreshBtn.addEventListener('click', () => {
+  DisplayScore();
 });
